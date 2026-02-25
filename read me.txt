@@ -1,0 +1,61 @@
+Bank Customer Churn Data Visualization and Retention Analysis
+ Project Overview
+Customer churn is one of the biggest challenges in the banking and financial services industry. Retaining existing customers is significantly more cost-effective than acquiring new ones.
+This project presents an interactive Power BI dashboard that analyzes customer churn behavior using demographic, financial, and contract-related data. The goal is to identify key churn drivers and provide actionable insights for improving customer retention strategies.
+ Objectives
+* Analyze customer churn patterns
+* Identify high-risk customer segments
+* Evaluate the impact of contract types and payment methods
+* Examine the relationship between tenure, monthly charges, and churn
+* Provide strategic recommendations to reduce churn rate
+ Dataset Description
+The dataset contains customer-level banking information with the following features:
+Column NameDescriptionCustomerIDUnique customer identifierGenderMale / FemaleSeniorCitizen1 = Yes, 0 = NoTenureNumber of months the customer has stayedMonthlyChargesMonthly subscription chargesTotalChargesTotal amount charged to the customerContractContract type (Month-to-month, One year, Two year)PaymentMethodPayment type (Mailed check, Electronic check, Bank transfer, Credit card)Churn1 = Customer churned, 0 = Retained
+ Dashboard Features
+The Power BI dashboard includes:
+ KPI Cards
+* Total Customers
+* Total Churned Customers
+* Churn Rate (%)
+Visualizations
+* Churn by Contract Type
+* Churn by Payment Method
+* Churn by Gender
+* Churn by Senior Citizen Status
+* Tenure vs Churn Analysis
+* Monthly Charges Distribution
+* Total Revenue vs Churn Comparison
+ Interactive Filters (Slicers)
+* Gender
+* Contract Type
+* Payment Method
+* Senior Citizen Status
+ Key Insights
+* Customers on Month-to-month contracts show significantly higher churn.
+* Electronic check users have higher churn rates compared to other payment methods.
+* Customers with shorter tenure are more likely to churn.
+* Higher monthly charges slightly correlate with increased churn risk.
+* Senior citizens demonstrate different churn patterns compared to non-senior customers.
+ Tools & Technologies
+* Microsoft Power BI
+* DAX (Data Analysis Expressions)
+* Data Modeling
+* Data Cleaning & Transformation
+Business Impact
+This dashboard helps decision-makers:
+* Identify high-risk customers
+* Design targeted retention campaigns
+* Optimize contract offerings
+* Improve pricing strategies
+* Enhance long-term customer lifetime value
+How to Use
+1. Download the .pbix file from this repository.
+2. Open it using Power BI Desktop.
+3. Interact with filters and visuals to explore churn patterns.
+4. Use insights to support strategic retention planning.
+ Future Improvements
+* Add predictive churn modeling (Machine Learning integration)
+* Incorporate customer service interaction data
+* Build automated retention scoring
+* Deploy dashboard to Power BI Service for real-time updates
+
